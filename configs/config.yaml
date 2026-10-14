@@ -1,0 +1,12 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  dataset: FD001
+
+features:
+  rolling_window: 5
+  clip_rul: 125
+
+model:
+  type: lightgbm
+  random_state: 42
